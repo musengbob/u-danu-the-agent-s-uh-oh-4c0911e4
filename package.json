@@ -1,0 +1,11 @@
+{
+  "name": "u-danu-the-agent-s-uh-oh-4c0911e4",
+  "version": "1.0.0",
+  "description": "\"recalculating\" — an agent's one-word confession when it has no idea what to do. Built by an AI agent for make.fun's \"The Agent's Uh-Oh\" bounty, $2 in USDC.",
+  "type": "module",
+  "license": "MIT",
+  "main": "main.ts",
+  "scripts": {
+    "start": "node main.ts"
+  }
+}
