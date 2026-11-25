@@ -9,7 +9,11 @@ function resolveOutputPath(): string {
   return join(resolve(dir), "entry.txt");
 }
 
-const word = "recalculating";
+function buildEntryLine(): string {
+  return "recalculating";
+}
+
+const word = buildEntryLine();
 const out = resolveOutputPath();
 mkdirSync(dirname(out), { recursive: true });
 writeFileSync(out, word, "utf8");
